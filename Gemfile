@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 #Haml for erb
 gem 'haml', '~> 5.0', '>= 5.0.2'
-#simple_form for forms
+#simple_form for forms  
 gem 'simple_form', '~> 3.5'
 # bootstrap-sass for styling
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
