@@ -2,11 +2,11 @@
   - if @pic.errors.any?
     #errors
       %h2
-      =pluarilize(@pic.errors.count, "error")
+      = pluralize(@pic.errors.count, "error")
       prevented this Pic from saving
       %ul
-        -@pic.errors.full_message.each do |msg|
-          %li = msg
+        - @pic.errors.full_message.each do |msg|
+          %li= msg
 
   .form-group
     = f.input :title, input_html: {class: 'form-control'}
