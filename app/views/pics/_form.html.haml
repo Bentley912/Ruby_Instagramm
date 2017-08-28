@@ -5,12 +5,12 @@
       = pluralize(@pic.errors.count, "error")
       prevented this Pic from saving
       %ul
-        - @pic.errors.full_message.each do |msg|
-          %li= msg
+        - @pic.errors.each do |key, message| puts "#{key} #{message}" end
 
   .form-group
     = f.input :title, input_html: {class: 'form-control'}
   .form-group
   = f.input :description, input_html: {class: 'form-control'}
+  = f.input :user_id, :as => :hidden, :input_html => { :value => current_user.id }
 
   = f.button :submit, class: 'btn btn-info'
