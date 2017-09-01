@@ -1,5 +1,6 @@
-- @pics.each do |pic|
-  =link_to (image_tag pic.image.url(:medium))
-  %h2= link_to pic.title, pic
-
-=link_to "Gram it", new_pic_path
+.col-md-6.col-md-offset-3
+  #pic.transitons-enabled
+    - @pics.each do |pic|
+      .box.panel.panel-default
+        =link_to (image_tag pic.image.url(:medium))
+        %h2= link_to pic.title, pic
