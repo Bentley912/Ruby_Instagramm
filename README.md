@@ -21,4 +21,9 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# Ruby_Instagramm
+# Gems
+  * simple_form
+  * devise
+  * paperclip (for image upload. Must have imageMagick installed too)
+  * haml
+  * bootstrap-sass
