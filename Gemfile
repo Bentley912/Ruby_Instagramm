@@ -41,6 +41,8 @@ gem 'simple_form', '~> 3.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 #Devise for User Model
 gem 'devise', '~> 4.2'
+# Paperclip for attaching Pics
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
