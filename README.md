@@ -32,4 +32,6 @@
 
 # Devise Methods for Restricting Routes
   Devise allows for easy restriction of routes for users. The following line restricts users from seeing any of the other routes unless they are logged in:
-  ```before_action :authenticate_user!, except: [:index, :show]```
+  ```
+  before_action :authenticate_user!, except: [:index, :show]
+  ```
