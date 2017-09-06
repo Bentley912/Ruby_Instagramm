@@ -2,5 +2,5 @@
   #pic.transitons-enabled
     - @pics.each do |pic|
       .box.panel.panel-default
-        =link_to (image_tag pic.image.url(:medium))
-        %h2= link_to pic.title, pic
+        =link_to (image_tag pic.image.url(:medium)), pic
+        %h3= link_to pic.title, pic
