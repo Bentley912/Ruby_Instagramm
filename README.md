@@ -22,3 +22,8 @@
  rake db:migrate
  ```
 
+# Models 
+
+# Controller 
+
+# Devise Methods for Restricting Routes 
