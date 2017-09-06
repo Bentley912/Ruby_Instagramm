@@ -32,3 +32,8 @@ Things you may want to cover:
 
 # Getting Started 
 
+ Make sure to install all of your gems by running:
+ ```
+ bundle install
+ ```
+
