@@ -22,8 +22,13 @@ Things you may want to cover:
 
 * ...
 # Gems
-  * simple_form
-  * devise
-  * paperclip (for image upload. Must have imageMagick installed too)
-  * haml
-  * bootstrap-sass
+  * simple_form 3.5
+  * devise 4.2
+  * paperclip 4.3 (for image upload. Must have imageMagick installed too)
+  * haml 5.0
+  * bootstrap-sass 3.3
+  * masonry-rails 0.2.4
+  * acts_as_votable 0.10.0
+
+# Getting Started 
+
