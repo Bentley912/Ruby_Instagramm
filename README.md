@@ -25,11 +25,26 @@
  rake db:migrate
  ```
 
- This is all you should need to get started. Since the database
+ If you want to start from scratch, this is all you should need to get started. Since the database is empty, you will need to register a user to be able to add pics.
 
+ OR, you can create some sample data by seeding the database. There is a seed file available at  db/seeds.rb.
+
+ Seed your databse by running the following command in your terminal:
+
+ ```
+ rake db:seed
+ ```
+
+ This should insert one User and two Pics into your database. Restart your server by running
+ ```
+ ctrl +
+ rails server or rails s
+ ```
+
+ Your index page should now have two pictures there.
 # Models
   There are two models for this app - Users and Pics
-  Note: bcrypt is not enabled in this version. If you plan to use this in the wild, ame sure to install bcrypt
+  Pics cannot be created without having a User attached.Same with upvotes
 
 # Devise Methods for Restricting Routes
   Devise allows for easy restriction of routes for users. The following line restricts users from seeing any of the other routes unless they are logged in:
