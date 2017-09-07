@@ -10,6 +10,7 @@
   * [bootstrap-sass 3.3](https://github.com/twbs/bootstrap-sass)
   * [masonry-rails 0.2.4](https://github.com/kristianmandrup/masonry-rails)
   * [acts_as_votable 0.10.0](https://github.com/ryanto/acts_as_votable) - for upvoting photos
+  * [seed_dump](https://github.com/rroblak/seed_dump) - Creates db/seed file from current database
 
 # Getting Started
 
@@ -24,7 +25,7 @@
  rake db:migrate
  ```
 
- This is all you should need to get started.
+ This is all you should need to get started. Since the database
 
 # Models
   There are two models for this app - Users and Pics

@@ -47,6 +47,8 @@ gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem 'masonry-rails', '~> 0.2.4'
 # Act_as_votable Gem for upvoting
 gem 'acts_as_votable', '~> 0.10.0'
+#seed_dump for generating db/seed file from database
+gem 'seed_dump'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
