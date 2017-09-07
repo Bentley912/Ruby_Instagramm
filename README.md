@@ -37,7 +37,7 @@
 
  This should insert one User and two Pics into your database. Restart your server by running
  ```
- ctrl +
+ ctrl + C
  rails server or rails s
  ```
 
