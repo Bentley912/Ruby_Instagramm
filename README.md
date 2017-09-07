@@ -43,7 +43,7 @@
 
  Your index page should now have two pictures there.
 
- [Index Page Screenshot](app/assets/images/Screenshot.png)
+ [Index Page Screenshot](app/assets/images/ScreenShot.png)
 # Models
   There are two models for this app - Users and Pics
   Pics cannot be created without having a User attached.Same with upvotes
