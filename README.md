@@ -63,5 +63,5 @@
   ```
   :confirmable
   ```
-  to the User model in models/user.rb. You can find more info on the :confirmable
+  to the User model in models/user.rb in order to use the confirmation and password reset emails. You can find more info on the :confirmable
   method here: [:confirmable](http://www.rubydoc.info/github/plataformatec/devise/master/Devise/Models/Confirmable)
