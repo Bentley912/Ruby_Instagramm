@@ -53,3 +53,15 @@
   ```
   before_action :authenticate_user!, except: [:index, :show]
   ```
+
+# Testing Welcome and Confirmation Emails
+
+  If you want to test emails locally, you need to use some smtp faker. I used
+  [Mailtrap](https://mailtrap.io/). s
+
+  For devise User model, you must add
+  ```
+  :confirmable
+  ```
+  to the User model in models/user.rb. You can find more info on the :confirmable
+  method here: [:confirmable](http://www.rubydoc.info/github/plataformatec/devise/master/Devise/Models/Confirmable)
