@@ -1,5 +1,12 @@
 class User < ApplicationRecord
 
+  after_create :send_welcome_email
+
+  def send_welcome_email
+     UserMailer.welcome_email(self).deliver
+  end
+
+
   has_many :pics
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
