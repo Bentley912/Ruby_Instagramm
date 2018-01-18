@@ -48,7 +48,7 @@ gem 'masonry-rails', '~> 0.2.4'
 # Act_as_votable Gem for upvoting
 gem 'acts_as_votable', '~> 0.10.0'
 #seed_dump for generating db/seed file from database
-gem 'seed_dump'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -65,7 +65,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-    gem 'sqlite3'
+  gem 'sqlite3'
+  gem 'seed_dump'
 end
 
 group :production, :staging do
